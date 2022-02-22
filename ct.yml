@@ -1,0 +1,141 @@
+resolution: 
+    x: 1280
+    y: 720
+currency:
+    path: 'text_files\currency.txt'
+subtitles:
+    path: 'text_files\crawl.txt'
+    font:
+        path: 'fonts/TV Sans Screen Medium FINAL 01.otf'
+        size: 31
+    rect: 
+        x0: 0.075
+        x1: 0.9234375
+        y1:  0.822222222222
+        spacing_x: 0.03125
+        spacing_y: 0.023611111111111111
+        spacing_bl: 0.013888888888888888
+        fill: !!python/tuple [10, 4, 41, 240]
+    text:
+        lines: 2
+        fill: !!python/tuple [255, 255, 255]
+reporttitle:
+    path: 'text_files\titles.txt'
+    font:
+        path: 'fonts/TV Sans Screen Medium FINAL 01.otf'
+        size: 43
+    rect:
+        x0: 0.075
+        y0: 0.8125
+        x1: 0.9234375
+        y1: 0.9027777777777777777
+        spacing_x: 0.01875
+        spacing_y: 0.020833333333333333
+        fill: !!python/tuple [28,38,99,240]
+    text:
+        fill: !!python/tuple [255,255,255]
+crawl:
+    path: 'text_files\crawl.txt'
+    font:
+        path: 'fonts/TV Sans Screen Bold FINAL 01.otf'
+        size: 22
+    rect:
+        x0: 0.15859375
+        y0: 0.9041666666666666666
+        x1: 0.9234375
+        y1: 0.95
+        fill: !!python/tuple [234,233,231,240]
+        spacing_x: 0.0171875
+        spacing_y: 0.0125
+    text:
+        fill: !!python/tuple [16,18,65]
+politic:
+    path: 'text_files\politic.txt'
+    chance: 5
+place:
+    state:
+        path: 'text_files\LIST_STATY.txt'
+    town:
+        path: 'text_files\LIST_OBCE.txt'
+    street:
+        path: 'text_files\LIST_ULICE.txt'
+job:
+    path: 'text_files\job.txt'
+    font:
+        path: 'fonts/TV Sans Screen Medium FINAL 01.otf'
+        size: 27
+    fill: !!python/tuple [255,255,255]
+name:
+    first:
+        path: 'text_files\first.txt'
+    last:
+        path: 'text_files\last.txt'
+    font: 
+        path: 'fonts/TV Sans Screen Bold FINAL 01.otf'
+        size: 27
+    rect:
+        x0: 0.075
+        y0: 0.84027777777777777777
+        x1: 0.9234375
+        y1: 0.90277777777777777777
+        fill: !!python/tuple [28, 38, 99, 240]
+        spacing_x: 0.01734375
+        spacing_y: 0.018055555
+    text:
+        fill: !!python/tuple [255,255,255]
+        
+source:
+    path: 'text_files\source.txt'
+    source: 'Zdroj'
+    font:
+        path: 'fonts/TV Sans Screen Bold FINAL 01.otf'
+        size: 22
+    rect: 
+        x1: 0.92109375
+        y1: 0.10694444444444444
+        spacing_x: 0.015625
+        spacing_y: 0.006944444444444444
+        fill: !!python/tuple [248,247,243,230]
+    text:
+        fill: !!python/tuple [16,18,65]
+resizedct:
+    enlarcoef: 1.6
+live:
+    live: "\u017e\u0069\u0076\u011b"
+    font:
+        path: 'fonts/TV Sans Screen Bold FINAL 01.otf'
+        size: 22
+    rect:
+        x0: 0.240625
+        y0: 0.0527777777777777777
+        fill_live: !!python/tuple [182, 23, 28, 240]
+        fill_whowhere: !!python/tuple [255, 255, 255, 240]
+        side_space_x: 0.0125
+        side_space_y: 0.015277777777777
+    text:
+        fill: !!python/tuple [255, 255, 255]
+    text2:
+        fill: !!python/tuple [16, 18, 65]
+time:
+    font:
+        path: 'fonts/TV Sans Screen Bold FINAL 01.otf'
+        size: 22
+    rect:
+        x0: 0.075
+        y0: 0.904166666666666666
+        x1: 0.1578125
+        y1: 0.95
+        fill: !!python/tuple [1,8,36,240]
+        spacing_x: 0.01171875
+        spacing_y: 0.0125
+    text:
+        fill: !!python/tuple [226, 228, 239]
+syntwild:
+    fontlist: 'text_files/fontlist.txt'
+annotation:
+    #path: 'done/'
+    path: 'H:/skola/sp6/ready_2_train/'
+textcolors:
+    path: 'text_files/textclrs.txt'
+backcolors:
+    path: 'text_files/backclrs.txt'

@@ -1,0 +1,3 @@
+fonts/TV Sans Screen Bold FINAL 01.otf
+fonts/TV Sans Screen Regular FINAL 01.otf
+fonts/TV Sans Screen Medium FINAL 01.otf
